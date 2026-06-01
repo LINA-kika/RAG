@@ -25,7 +25,7 @@ from openai import OpenAI
 
 # ********************* КОНФИГУРАЦИЯ *********************
 LM_STUDIO_URL   = "http://127.0.0.1:1234/v1"
-EMBEDDING_MODEL = "text-embedding-nomic-embed-text-v1.5"   # как видит её LM Studio
+EMBEDDING_MODEL = "bge-m3"  # как видит её LM Studio
 
 # Несколько фраз для эксперимента — нарочно подобраны так, чтобы
 # было видно семантическое сходство (фразы про животных близки между собой,
